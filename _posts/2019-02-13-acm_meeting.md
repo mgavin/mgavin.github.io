@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Tonight's ACM Meeting with Twistlock! (2/13/2019)
+# ACM Meeting with Twistlock! (2/13/2019)
 
 [Twistlock](https://www.twistlock.com/) is a company that supports cloud native security for container orchestration systems such as Kubernetes, Docker, and more.
 
