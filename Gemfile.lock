@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    bigdecimal (1.4.3)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
     em-websocket (0.5.1)
@@ -35,6 +36,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+    json (2.1.0)
     kramdown (1.17.0)
     liquid (4.0.1)
     listen (3.1.5)
@@ -52,6 +54,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    redcarpet (3.4.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -65,9 +68,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bigdecimal
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
+  json
   minima (~> 2.0)
+  redcarpet
   tzinfo-data
 
 BUNDLED WITH
