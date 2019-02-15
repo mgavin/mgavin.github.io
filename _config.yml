@@ -23,9 +23,7 @@ twitter_username:
 github_username:  mgavin
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ['smart']
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
